@@ -1,0 +1,799 @@
+/*Admin - Main*/
+
+
+.plaidintegra-form-group {
+
+    display: inline-block;
+    width: 100%;   
+
+}
+
+.plaid-invoice-divisor{
+    width: 100%;
+    display: inline-block;
+    padding: 10px;
+    margin: 10px 0px 10px 0px;
+}
+
+.plaid-invoice-col2{
+    width: 49%;
+    display: inline-block;
+}
+
+.plaid-invoice-col3{
+    width: 33%;
+    display: inline-block;
+}
+
+.invo-col-plaid{
+
+    display: inline-block;
+    width: 24%;
+    vertical-align: top;
+}
+
+.plaid-paid-invoice{
+    color: #4F8A10;
+    font-weight: 600;
+}
+
+.plaid-pending-invoice{
+    color: #c5b915;
+    font-weight: 600;
+}
+
+.plaidintegra-welcome-panel i {
+    font-size: 18px;
+    vertical-align: middle;
+  }
+
+.plaid-paid-invoice .table {
+    font-size: 1.7rem !important;
+  }
+
+.plaid-invoice-col4{
+    width: 24%;
+    display: inline-block;
+}
+
+.plaid-popup-box{
+    overflow: hidden !important;
+}
+
+.plaidintegra-form-group label{
+
+    display: inline-block;
+    width: 100%;   
+
+}
+
+.palid-button-bart{
+    text-align: right;
+    padding: 10px 0px 10px 0px;
+}
+
+#plaidintegra-add-new-custom-field-frm   { display:none }
+
+#loading-animation{ display:none}
+.plaidintegra-admin .nav-tab.plaidintegra-pro-tab-bubble { 
+    background-color: #E55237;
+    color:white; border:solid 1px #df4a2f  
+
+}
+
+.plaidintegra-admin .nav-tab.plaidintegra-pro-tab-bubble:hover { 
+    background-color: #E55237;
+    color:white;  border:solid 1px #df4a2f 
+
+}
+
+span.plaidintegra-main-close-open-tab{ position:absolute; right:5px; top:10px}
+span.plaidintegra-main-close-open-tab a{ font-size:18px; color:#474747}
+span.plaidintegra-main-close-open-tab i{ font-size:18px}
+
+
+.plaidintegra-sect { padding:2px 5px 2px 5px; margin-top:10px; position:relative; background:#FFF}
+.plaidintegra-sect .plaidintegra-header { margin:5px; padding-top:5px; padding-left:5px; border-bottom: solid 1px #F8F8F8}
+.plaidintegra-sect .plaidintegra-header h3{ font-size:20px}
+
+
+.plaidintegra-welcome-panel {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #e5e5e5;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+    font-size: 13px;
+    line-height: 2.1em;
+    margin: 14px 0;
+    overflow: hidden;
+    padding: 15px 10px 5px;
+    position: relative !important;
+}
+
+.plaidintegra-welcome-panel h3 {
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 1.2;
+    margin: 0;
+}
+.plaidintegra-welcome-panel h4 {
+    font-size: 16px;
+    margin: 1.33em 0 0;
+}
+.plaidintegra-welcome-panel li {
+    font-size: 14px;
+}
+
+
+.plaidintegra-welcome-panel-content {
+    margin-left: 13px;
+    max-width: 1500px;
+}
+
+
+
+span.plaidintegra-delete-ticket-conver{ position:absolute; right:5px; top:10px}
+span.plaidintegra-delete-ticket-conver a{ font-size:14px; color: #999}
+
+
+
+span.ultimatecaptchalogoadmin{ position:absolute; right:5px; top:10px}
+
+
+
+.plaidintegra-messaging-hidden{ display:none}
+
+
+
+#bup-loading-animation-business-hours{ display:none; }
+
+.plaidintegra-admin-contain .avatar {
+border-radius: 50%;
+-moz-border-radius: 50%;
+-webkit-border-radius: 50%;
+}
+
+
+/**/
+
+.plaidintegra-ticket-header-quickoptions {
+	position:relative; text-align:right;
+	background:none;
+	height:45px;
+	margin:5px 0px 10px 0px;
+	
+}
+
+.plaidintegra-ticket-header-quickoptions ul{
+	position:relative;
+	text-align:right;
+	padding:5px;
+		
+}
+
+.plaidintegra-ticket-header-quickoptions li{
+	position:relative;
+	display:inline-block;
+	width:auto;
+	padding:5px;
+}
+
+.plaidintegra-ticket-header-quickoptions li i{
+	margin-right:5px;
+	
+}
+
+
+
+
+.plaidintegra-appointments-getting-started {
+
+}
+
+.plaidintegra-common-block {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #e5e5e5;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+    font-size: 13px;
+    line-height: 2.1em;
+    margin: 5px 0;
+    overflow: auto;
+  
+    position: relative;
+	height:auto;	
+	
+   
+	width:99%;
+}
+
+.plaidintegra-top-options-book{
+	
+	width:200px;
+	background: none;
+	position:absolute;
+		
+	right:0px;
+	top:5px;
+	text-align:right
+}
+
+
+.plaidintegra-front-cont { 
+
+	padding:10px; 
+	margin:0 auto 0 auto; 
+	position:relative;
+	background: #fbfbfb; 
+	width:100%; 
+	max-width:800px; 
+	border:1px solid #ececec
+}
+
+.plaidintegra-help { font-size:14px; color:#999; text-align:left; padding:5px 0px 5px 0px}
+
+
+
+.plaidintegra-front-cont .bup_errors{ 
+
+
+}
+
+.plaidintegra-front-cont .bup_errors p.bup_error{
+	
+	color: #FF0004;
+
+
+}
+.plaidintegra-front-cont label{ 
+
+	display:inline-block;
+	margin-bottom:5px;
+	color:#666
+
+	
+}
+
+.plaidintegra-ticket-reply-auto-cont{ 
+	position:relative;
+	padding:10px 0px 10px 0px;
+	
+
+}
+
+
+
+
+
+.plaidintegra-welcome-panel .plaidintegra-button-upgrade:hover{ 
+
+	background: #333   none repeat scroll 0 0;
+	border:none;
+   
+    box-shadow: none;
+    color: #CCC;
+    text-shadow: none;
+}
+
+.plaidintegra-welcome-panel h1{ font-size:29px; color:#999}
+
+.plaidintegra-welcome-panel .plaidintegra-button-upgrade-pro{ transition: all 0.1s ease-out 0s;}
+
+.plaidintegra-welcome-panel .plaidintegra-button-upgrade{position:absolute; top:180px; right:30px;}
+
+h3.plaidintegra-extended{ font-size:40px;}
+h3.plaidintegra-welcome{ font-size:28px;}
+p.plaidintegra-extended-p{ font-size:16px;}
+
+
+.plaidintegra-ultra-info, .plaidintegra-ultra-success, .plaidintegra-ultra-warning, .plaidintegra-ultra-error, .isa_error {
+
+    border:none;
+
+    margin: 10px 0px 15px 5px;
+
+    padding:15px 10px 15px 50px;
+
+    background-repeat: no-repeat;
+
+    background-position: 10px center;
+
+	-moz-border-radius:.5em;
+
+-webkit-border-radius:.5em;
+
+border-radius:.5em;
+
+}
+
+
+
+.plaidintegra-ultra-warning {
+
+    color: #9F6000;
+
+    background-color: #FEEFB3;
+
+
+}
+
+.plaidintegra-ultra-error {
+
+    color: #D8000C;
+
+    background-color: #FFBABA;
+
+
+}
+
+.plaidintegra-ultra-wait {
+    color: #333;
+    background-color:none;
+	text-align:center
+   
+}
+.plaidintegra-ultra-info {
+    color: #777;
+    background-color: #e9f5fbf0;
+   
+}
+.plaidintegra-ultra-success {
+    color: #4F8A10;
+    background-color: #DFF2BF;
+   
+}
+
+.plaidintegra-ultra-success i{
+	font-size:18px;
+	margin:0px 5px 0px 0px
+   
+}
+
+.plaidintegra-ultra-info i{
+	font-size:18px;
+	margin:0px 5px 0px 0px
+   
+}
+.plaidintegra-ultra-warning {
+    color: #666;
+    background-color: #ffcc002b;
+   
+}
+
+.plaidintegra-ultra-warning i{
+	font-size:18px;
+	margin:0px 5px 0px 0px
+   
+}
+
+.plaidintegra-ultra-error {
+    color: #D8000C;
+    background-color: #FFBABA;
+   
+}
+
+
+.plaidintegra-button-upgrade{ 
+
+
+ background: #5D5656 none repeat scroll 0 0;
+ border:none;
+ color: #FFF;
+ font-size:16px;
+ line-height:20px;
+ padding:0 12px;
+ height:50px;
+ width:190px;
+ text-transform:uppercase;
+ text-decoration:none;
+ cursor:pointer;	
+
+}
+
+.plaidintegra-button-upgrade:hover{ 
+
+	background: #333   none repeat scroll 0 0;
+	border:none;
+   
+    box-shadow: none;
+    color: #CCC;
+    text-shadow: none;
+}
+
+
+/************************************************************************************
+
+FIELD CUSTOMIZER
+
+*************************************************************************************/
+
+.plaidintegra-spinner {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-left: -50px; /* half width of the spinner gif */
+    margin-top: -50px; /* half height of the spinner gif */
+    text-align:center;
+    z-index:1234;
+    overflow: auto;
+    width: 190px; /* width of the spinner gif */
+    height: 102px; /*hight of the spinner gif +2px to fix IE8 issue */
+	background-color:rgba(240,240,240,0.7);
+	-moz-border-radius:.5em;
+	-webkit-border-radius:.5em;
+	border-radius:.5em;
+	font-size:14px;
+	padding-top:30px;
+}
+
+.plaidintegra-notification{ display:none}
+.plaidintegra-profile-fields-row {
+    border: 1px solid #efefef;
+   /* border-radius: 0.5em;*/
+    clear: both;
+    height: auto !important;
+    margin: 10px 0;
+    min-height: 60px;
+    padding: 0;
+    position: relative;
+    width: 600px;
+}
+.plaidintegra-profile-fields-row .heading_title {
+    border-bottom: 1px solid #efefef;
+    clear: both;
+    height: 30px;
+    margin: 0;
+    padding-top: 15px;
+    position: relative;
+    vertical-align: middle;
+    width: 100%;
+}
+.plaidintegra-profile-fields-row .options-bar {
+    clear: both;
+    height: 40px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    right: 0;
+    text-align: right;
+    top: 0;
+    width: 170px;
+}
+.plaidintegra-profile-fields-row .options-bar p {
+    margin: 8px 5px 0;
+}
+.plaidintegra-profile-fields-row .heading_title h3 {
+    font-size: 14px;
+    margin: 0 0 0 10px;
+}
+.plaidintegra-profile-fields-row .heading_title.separator {
+    background: #eee none repeat scroll 0 0;
+}
+.plaidintegra-profile-fields-row.profile-field {
+    margin-left: 30px;
+    width: 450px;
+}
+.plaidintegra-profile-fields-row .plaidintegra-fields-edition {
+    display: none;
+    margin: 10px auto;
+    width: 85%;
+}
+#uu-fields-sortable .ui-selected {
+    background: red none repeat scroll 0 0;
+    color: white;
+    font-weight: bold;
+}
+#uu-fields-sortable {
+    cursor: move;
+}
+
+.getbwp-main-sales-summary { text-align:center }
+.getbwp-main-sales-summary p.bupquickappbtn{ text-align:right; color:#666 }
+.getbwp-main-sales-summary p.bupquickappbtn a{ color:#666; text-decoration:none }
+
+.getbwp-main-sales-summary a span{ margin-right:5px; }
+
+.getbwp-main-sales-summary ul{ padding: 10px 5px 10px 5px;
+    background: #f0f0f0;
+    margin: 10px 0px 10px 0px;}
+
+.getbwp-main-sales-summary ul li{
+		display: inline-block;
+		min-height: 115px;
+		margin: 0px 0px 0px 5px;
+		background: #FFFFFF;
+		border: none;
+		vertical-align: top;
+		width: 19%;
+		padding: 5px 0 15px 0px; 
+        border-radius:8px}
+.getbwp-main-sales-summary ul li a{ display:block; width:100%; height:100%; text-decoration:none }
+.getbwp-main-sales-summary  ul li p{ 
+    font-size:3rem; 
+    margin:0px; 
+    font-weight:700;
+    text-align:center 
+}
+.getbwp-main-sales-summary ul li small{ font-size:1.2rem; color:#999 }
+
+.achinvo-main-dashcol{
+    position: relative;
+    margin: 15px 0px 15px 0px;
+    padding: 15px 0px 15px 0px;
+}
+
+.achinvo-main-dashcol .dashcol-graph-1{
+    position: relative;
+    display: inline-block;
+    width: 65%;
+}
+
+.achinvo-main-dashcol .dashcol-graph-2{
+    position: relative;
+    display: inline-block;
+    width: 33%;
+}
+
+.achico-responsive{ padding-left:5px}
+
+.plaidintegra-welcome-steps{
+    position: relative;
+    width: auto;
+    padding: 10px 0px 10px 0px;
+    background: #f4f4f4;
+    margin: 10px auto 10px auto;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.plaidintegra-welcome-steps .step-a{
+    position: relative;
+    width: 23%;
+    display: inline-block;
+    background: #FFF;
+    height: 150px;
+    vertical-align: top;
+    margin: 5px 5px 5px 5px;
+    border-radius: 8px;
+}
+
+
+
+
+
+
+
+/*
+ul.ui-autocomplete {
+	background: none repeat scroll 0 0 #DADADA;
+	cursor: pointer;
+	display: block;
+	list-style-type: none;
+	max-width: 200px;
+	padding: 0;
+	position: relative;
+	z-index: 1;
+}
+
+ul.ui-autocomplete li.ui-menu-item {
+	padding:3px 5px;
+}
+
+ul.ui-autocomplete li.ui-menu-item:hover, 
+ul.ui-autocomplete li.ui-state-hover:hover{
+	background:#666;
+}*/
+/* ------------------------------------------------------------------------- *
+
+ *  Responsive Style
+
+/* ------------------------------------------------------------------------- */
+
+/************************************************************************************
+
+MEDIA QUERIES
+
+*************************************************************************************/
+
+
+
+/* Large screens */
+
+@media only screen and (min-width : 1680px) {
+
+
+
+}
+
+
+
+/* Tablet Landscape */
+
+ @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+
+
+
+}
+
+
+
+
+
+
+
+/* for 980px or less */
+
+@media screen and (max-width: 1000px) {
+
+
+	
+
+}
+
+
+/* Smaller than 960px */
+
+/*@media only screen and (max-width: 959px) {
+
+}*/
+
+
+
+/* MAX 800px */
+
+
+
+@media only screen and (max-width: 1000px) {
+	
+	.plaidintegra-user-dahsboard-cont .plaidintegra-top-header .plaidintegra-top-options ul li .plaidintegra-user-menu-text{ display:none}
+	.bp_table_row_hide{ display:none}	
+	.plaidintegra-user-dahsboard-cont .plaidintegra-top-header .plaidintegra-top-options ul li i{ font-size:25px}
+	
+	#plaidintegra-stats-on-hold{ display:none}
+	#plaidintegra-stats-shared{ display:none}	
+	.plaidintegra-main-ticket-summary ul li { width:23%}
+	.plaidintegra-main-ticket-summary ul li.ultimatecaptchaclientd{width:30%  }
+	
+	
+	/* tickets list*/
+	#plaidintegra-ticket-col-staff { display:none}
+	#plaidintegra-ticket-col-department { display:none}
+
+    .getbwp-main-sales-summary ul li{
+		
+		width: 18%;
+    }
+
+    .getbwp-main-sales-summary ul li p{
+
+        font-size: 1.8rem !important;
+
+
+    }
+
+    .getbwp-main-sales-summary ul li small{
+
+        font-size: 0.9rem !important;
+
+    }
+
+    .achinvo-main-dashcol .dashcol-graph-1{
+        width: 100%;
+    }
+
+    .achinvo-main-dashcol .dashcol-graph-2{
+        width: 100%;
+    }
+
+    .achico-responsive{ display:none}
+	
+		
+	
+	
+}
+
+
+
+/* for 750px or less */
+
+@media only screen and (max-width: 750px) {
+	
+
+}
+
+@media only screen and (max-width: 620px) {
+	
+	
+	.plaidintegra-main-ticket-summary ul li { width:22%}
+	#plaidintegra-ticket-col-lastupdate { display:none}
+
+   
+
+   
+	
+
+
+}
+
+/*  GO FULL WIDTH AT LESS THAN 580 PIXELS */
+
+@media only screen and (max-width: 580px) {
+
+    .getbwp-main-sales-summary ul li p{
+
+        font-size: 1.1rem !important;
+
+
+    }
+
+    .getbwp-main-sales-summary ul li{
+
+      min-height:50px !important;
+
+
+    }
+
+    
+	
+
+
+}
+
+
+@media only screen and (max-width: 460px) {
+	
+	
+	.plaidintegra-staff-profile-name { display:none}
+	#plaidintegra-ticket-col-status { display:none}
+	#plaidintegra-ticket-col-site { display:none}
+	
+
+}
+
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+@media only screen and (max-width: 480px) {
+	
+
+
+
+}
+
+
+
+/* MAX 1440px */
+
+
+
+@media only screen and (max-width: 1440px){
+
+
+
+
+}
+
+
+
+
+
+/* MAX 1024px */
+
+
+
+@media only screen and (max-width: 1024px){
+
+
+
+}
+
+
+/* MAX 360px */
+
+
+
+@media only screen and (max-width: 320px){
+
+
+		
+
+}
+

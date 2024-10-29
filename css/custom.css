@@ -1,0 +1,229 @@
+/*Admin - Main*/
+
+.plaid-invoice-cont{
+
+    
+    width: 100%;
+    max-width: 990px !important;
+    padding: 0px;
+    margin: 0px auto 0px auto;
+
+}
+
+.plaid-invoice-cont .plaid-invoice-paid-message{
+
+    background-color: #0cac0c;
+    color: white;
+
+  
+
+}
+
+.plaid-invoice-cont .table{    
+    width: 100%;
+}
+
+.plaid-invoice-cont table{    
+   text-align: left;
+}
+
+.plaid-invoice-cont table th{    
+    text-align: left;
+ }
+
+ .plaid-invoice-cont table .plaidint-amount-due{    
+    text-align: right;
+ }
+
+ .plaid-invoice-cont table .plaidint-amount-total{    
+    font-size: 1.5rem;
+ }
+
+
+
+
+
+
+.plaid-invoice-cont h1{
+   color: #1f2221 !important;
+}
+
+.plaid-invoice-cont h4{
+    color: silver !important;
+    margin-top: 0px;
+ }
+
+.plaid-invoice-cont .pay-invoice-btn{
+    background-color: #0cac0c !important;    
+}
+
+.plaid-invoice-cont .text-right{
+   text-align: right;    
+}
+
+.plaid-invoice-cont .col-md-6-plaid {
+    width: 49% !important;    
+    display: inline-block !important;
+    vertical-align: top;
+ }
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+/* ------------------------------------------------------------------------- *
+
+ *  Responsive Style
+
+/* ------------------------------------------------------------------------- */
+
+/************************************************************************************
+
+MEDIA QUERIES
+
+*************************************************************************************/
+
+
+
+/* Large screens */
+
+@media only screen and (min-width : 1680px) {
+
+
+
+}
+
+
+
+/* Tablet Landscape */
+
+ @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+
+
+
+}
+
+
+
+
+
+
+
+/* for 980px or less */
+
+@media screen and (max-width: 1000px) {
+	
+
+}
+
+
+/* Smaller than 960px */
+
+/*@media only screen and (max-width: 959px) {
+
+}*/
+
+
+
+/* MAX 800px */
+
+
+
+@media only screen and (max-width: 1000px) {
+	
+
+	
+	
+}
+
+
+
+/* for 750px or less */
+
+@media only screen and (max-width: 750px) {
+	
+
+}
+
+@media only screen and (max-width: 620px) {
+	
+	
+
+	
+
+
+}
+
+/*  GO FULL WIDTH AT LESS THAN 580 PIXELS */
+
+@media only screen and (max-width: 580px) {
+	
+
+
+}
+
+
+@media only screen and (max-width: 460px) {
+	
+
+	
+
+}
+
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+@media only screen and (max-width: 480px) {
+	
+
+
+
+}
+
+
+
+/* MAX 1440px */
+
+
+
+@media only screen and (max-width: 1440px){
+
+
+
+
+}
+
+
+
+
+
+/* MAX 1024px */
+
+
+
+@media only screen and (max-width: 1024px){
+
+
+
+}
+
+
+/* MAX 360px */
+
+
+
+@media only screen and (max-width: 320px){
+
+
+		
+
+}
+
